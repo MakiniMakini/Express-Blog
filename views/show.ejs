@@ -1,0 +1,13 @@
+<%- include ("partials/header")%> 
+
+
+<div class="col-12 col-md-6 card container text-left mt-5">
+    <div> <%= blog.title %></div>
+    <img src="<%=blog.image%>" alt="">
+        <span><%=blog.created.toDateString()%></span>
+        <p>
+            <%-blog.body%>
+        </p>
+</div>
+
+<%- include ("partials/footer")%>
