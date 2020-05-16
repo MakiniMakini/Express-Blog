@@ -13,3 +13,6 @@ None
 
 ## Contribute
 -Folk, contribute, pull-request
+## Developer
+
+Makini Makini
