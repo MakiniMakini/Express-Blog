@@ -8,6 +8,10 @@
         <p>
             <%-blog.body%>
         </p>
+        <a href="/blogs/<%=blog._id%>/edit"><button class=" btn-lg btn-success">Edit</button></a>
+        <form style="display: inline;" action="/blogs/<%=blog._id%>?_method=delete" method="post">
+            <button  class="btn-danger">DELETE</button>
+        </form>
 </div>
 
 <%- include ("partials/footer")%>
